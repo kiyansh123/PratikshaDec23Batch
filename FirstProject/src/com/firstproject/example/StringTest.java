@@ -2,7 +2,7 @@ package com.firstproject.example;
 
 public class StringTest {
 
-	
+	static int a=10;
 	public static void main(java.lang.String[] args) 
 	{
 		String var1="false";

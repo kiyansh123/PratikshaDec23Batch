@@ -4,6 +4,9 @@ public class TestClass5
 {
 	public static void main(StringTest[] args)
 	{
+		Object o=new Object();
+		
+		
 		int a=10;
 		int b=199;
 		long s=90;

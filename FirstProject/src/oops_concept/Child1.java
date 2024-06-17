@@ -6,6 +6,11 @@ public class Child1 extends Parent
 	static int static_variableChild1=900;
 	int v1=500;
 	
+	public Child1()
+	{
+		super(6);
+		System.out.println("No Argument constructor child1 class");
+	}
 	
 	  public void ChildMethod() 
 	  { 
@@ -19,13 +24,14 @@ public class Child1 extends Parent
 	}
 	public static void main(String[] args)
 	{
-		Parent ref1=new Parent();
+		Child1 ref1=new Child1();
+		
 		//int variableFromClass1=ref1.a;
 		//ref1.m1();
 		
 		//int staticVarFromClass1=TestClass1.b;
 		//TestClass1.m2();
-		System.out.println(static_parentVariable1);
+		/*System.out.println(static_parentVariable1);
 		m2();
 		Child1 ref2=new Child1();
 		int nonStaticVar=ref2.parentVariable1;
@@ -34,6 +40,8 @@ public class Child1 extends Parent
 		
 		System.out.println(static_variableChild1);
 		System.out.println(ref2.variableChild1);
-		System.out.println(ref1.c);
+		System.out.println(ref1.c);*/
+		
+		
 	}
 }

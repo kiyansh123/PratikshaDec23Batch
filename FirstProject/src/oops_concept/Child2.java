@@ -1,4 +1,4 @@
-package oops_concept;
+/*package oops_concept;
 
 public class Child2 extends Child1
 {
@@ -26,3 +26,4 @@ public class Child2 extends Child1
 		//code reusability
 	}
 }
+*/
